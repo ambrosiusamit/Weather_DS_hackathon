@@ -1,11 +1,11 @@
 # Weather_DS_hackathon
 A data science project developed for a hackathon with the goal of building a predictive model for weather classification using machine learning. This project explores various aspects of data preprocessing, feature engineering, classification modeling, and performance evaluation.
 
-#Project Overview
+#Project Overview:
 Weather plays a vital role in our daily lives, and accurate classification of weather types can significantly benefit various sectors, including agriculture, aviation, and logistics. This project aims to classify weather into categories such as Clear, Cloudy, Foggy, Rainy, Snowy, etc., using machine learning techniques on meteorological data.
 
 
-# Dataset
+# Dataset:
 The dataset consists of labeled weather data with features such as:
 
 Temperature (°C)
@@ -17,12 +17,12 @@ Dew Point (°C)
 Precipitation (mm)
 Target Variable: Weather Condition (Categorical)
 
-#Files
+#Files:
 train.csv – training data with weather labels
 test.csv – test data without labels (to be predicted)
 
 
-#Exploratory Data Analysis (EDA)
+#Exploratory Data Analysis (EDA):
 Distribution of numeric features
 Missing value analysis and imputation
 Correlation heatmaps
@@ -31,7 +31,7 @@ Feature importance visualization
 EDA was performed using Python libraries like pandas, matplotlib, and seaborn.
 
 
-# Model Building
+# Model Building:
 Several machine learning models were experimented with:
 Logistic Regression
 Random Forest
@@ -41,13 +41,13 @@ Support Vector Machine
 K-Nearest Neighbors
 Performance was evaluated using accuracy, F1-score, precision, and recall. Hyperparameter tuning was done using GridSearchCV and RandomizedSearchCV.
 
-#Ensemble Modeling
+#Ensemble Modeling:
 An ensemble of the top-performing models was created using:
 Voting Classifier (Hard & Soft)
 StackingClassifier
 The ensemble approach significantly improved overall classification accuracy.
 
-#Evaluation Metrics
+#Evaluation Metrics:
 Accuracy
 Precision
 Recall
@@ -55,7 +55,7 @@ F1-Score
 Confusion Matrix
 The final model achieved high accuracy and balanced class-wise performance.
 
-# Requirements
+# Requirements:
 To install the dependencies, run:
 bash
 Copy
@@ -71,7 +71,7 @@ lightgbm
 matplotlib
 seaborn
 
-  #How to Run
+  #How to Run:
 
 Clone the repository:
 bash
