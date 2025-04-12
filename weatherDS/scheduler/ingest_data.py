@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "OPENWEATHER_API_KEY"
 CITIES = ["London", "New York", "Tokyo"]
 UNITS = "metric"
 
